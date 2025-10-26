@@ -1,0 +1,35 @@
+# SAR Landcover Classification - Python Dependencies
+
+# Core computation
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+openpyxl
+
+# Deep Learning - PyTorch
+torch>=1.12.0
+torchvision>=0.13.0
+tensorboard>=2.8.0
+
+# Image processing
+rasterio>=1.2.0
+scikit-image>=0.18.0
+opencv-python>=4.5.0
+Pillow>=8.3.0
+
+# Machine learning
+scikit-learn>=1.0.0
+xgboost>=1.5.0  # For XGBoost classifier
+lightgbm>=3.2.0  # For LightGBM classifier
+
+# Visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Performance and utilities
+tqdm>=4.62.0  # Progress bars during processing
+joblib>=1.0.0  # Parallel processing support
+
+# Optional: For advanced features
+# CUDA support (install separately based on your system)
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118

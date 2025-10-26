@@ -1,0 +1,153 @@
+# CNN Dataset Creation - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Dataset directories (large files)
+cnn_dataset/
+cnn_dataset_*/
+patches/
+patch_data/
+dataset_*/
+
+# SAR images (large files)
+sar_images/
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+
+# Excel files (can be large)
+*.xlsx
+*.xls
+Combined_dataset.xlsx
+filtered_*.xlsx
+
+# Log files
+*.log
+patch_extraction.log
+extraction_*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Model files (large)
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+models/
+checkpoints/
+saved_models/
+
+# Results and outputs
+results/
+outputs/
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Data splits
+data_splits/
+train/
+val/
+test/
+
+# Verification reports
+verification_report.txt
+*_report.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Configuration files with sensitive data
+config.ini
+secrets.json
+.env
+
+# Large data files
+data/
+raw_data/
+processed_data/
+
+# Specific to this project
+filtered_Combined_dataset.xlsx
+combined_data.xlsx
+debug_imports.py
+test_significance.py
+example_*.csv
+
+# Keep essential files (override above rules)
+!requirements.txt
+!README.md
+!create_cnn_patch_dataset.py
+!setup.py
+!.gitignore
